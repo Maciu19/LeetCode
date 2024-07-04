@@ -1,4 +1,6 @@
-﻿namespace LeetCode.Static_Array;
+﻿using LeetCode.Helpers;
+
+namespace LeetCode.Static_Array;
 
 // Link: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
 public class Remove_Duplicates_From_Sorted_Array
@@ -14,21 +16,12 @@ public class Remove_Duplicates_From_Sorted_Array
         // Example 1
         int[] nums1 = [1, 1, 2];
         Console.WriteLine($"Unique elements: {RemoveDuplicates(nums1)}");
-        PrintArray(nums1);
+        ArrayHelper.PrintArray(nums1);
 
         // Example 2
         int[] nums2 = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
         Console.WriteLine($"Unique elements: {RemoveDuplicates(nums2)}");
-        PrintArray(nums2);
-    }
-
-    public static void PrintArray(int[] arr)
-    {
-        for (int i = 0; i < arr.Length; i++)
-        {
-            Console.Write(arr[i] + " ");
-        }
-        Console.WriteLine();
+        ArrayHelper.PrintArray(nums2);
     }
 
     public static int RemoveDuplicates(int[] nums)

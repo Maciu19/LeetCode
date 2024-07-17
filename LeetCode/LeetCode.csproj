@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>LeetCode.Static_Array.Shuffle_Array</StartupObject>
+    <StartupObject>LeetCode.Dynamic_Array.Concatenation_Of_Array</StartupObject>
   </PropertyGroup>
 
 </Project>

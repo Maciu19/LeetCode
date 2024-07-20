@@ -16,23 +16,24 @@ public class Reverse_Linked_List
             reversedList = reversedList.next;
         }
     }
-}
 
-public class ListNode
-{
-    public int val;
-    public ListNode next;
-    public ListNode(int val = 0, ListNode next = null)
+    private class Solution
     {
-        this.val = val;
-        this.next = next;
-    }
-}
+        public ListNode ReverseList(ListNode head)
+        {
+            ListNode next = head;
+            ListNode prev = null;
 
-public class Solution
-{
-    public ListNode ReverseList(ListNode head)
-    {
-        
+            while (next is not null)
+            {
+                head = next;
+
+                next = head.next;
+                head.next = prev;
+                prev = head;
+            }
+
+            return head;
+        }
     }
 }

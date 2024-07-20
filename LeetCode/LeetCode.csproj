@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>LeetCode.Dynamic_Array.Concatenation_Of_Array</StartupObject>
+    <StartupObject>LeetCode.Singly_Linked_Lists.Merge_Two_Sorted_Lists</StartupObject>
   </PropertyGroup>
 
 </Project>

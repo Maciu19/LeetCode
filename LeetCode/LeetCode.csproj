@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>LeetCode.Singly_Linked_Lists.Merge_Two_Sorted_Lists</StartupObject>
+    <StartupObject>LeetCode.Doubly_Linked_Lists.Design_Linked_List</StartupObject>
   </PropertyGroup>
 
 </Project>

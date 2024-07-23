@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>LeetCode.Doubly_Linked_Lists.Design_Linked_List</StartupObject>
+    <StartupObject>LeetCode.Doubly_Linked_Lists.Design_Browser_History</StartupObject>
   </PropertyGroup>
 
 </Project>
